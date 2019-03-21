@@ -13,12 +13,10 @@ namespace AREAS
     public partial class Form1 : Form
     {
         int bandera = 0;
-        Mate objeto = Mate.Instance;
-
         public Form1()
         {
             InitializeComponent();
-
+            
             txtA.Enabled = false;
             txtL1.Enabled = false;
             txtL2.Enabled = false;
@@ -47,7 +45,7 @@ namespace AREAS
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+            txtL1.Text = "hola";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -157,13 +155,13 @@ namespace AREAS
             if (bandera==1)
             {
                 double a = double.Parse(txtL1.Text);
-                double resultado = objeto.Cuadrado(a);
+                double resultado = Mate.Cuadrado(a);
                 Area.Text = Convert.ToString(resultado);
             }
             else if (bandera == 2)
             {
                 double a = double.Parse(txtL1.Text);
-                double resultado = objeto.Rectangulo(a);
+                double resultado = Mate.Rectangulo(a);
                 Area.Text = Convert.ToString(resultado);
             }
             else if (bandera == 3)
@@ -171,13 +169,13 @@ namespace AREAS
                 
                 double a = double.Parse(txtL1.Text);
                 double b = double.Parse(txtL2.Text);
-                double resultado = objeto.Triangulo(a, b);
+                double resultado = Mate.Triangulo(a, b);
                 Area.Text = Convert.ToString(resultado);
             }
            else if (bandera == 4)
             {
                 double a = double.Parse(txtR.Text);
-                double resultado = objeto.Circulo(a);
+                double resultado = Mate.Circulo(a);
                 Area.Text = Convert.ToString(resultado);
             }
            else if (bandera == 5)
@@ -185,28 +183,28 @@ namespace AREAS
                 double a = double.Parse(txtL1.Text);
                 double b = double.Parse(txtL2.Text);
                 double c = double.Parse(ljlk.Text);
-                double resultado = objeto.Trapecio(a, b, c);
+                double resultado = Mate.Trapecio(a, b, c);
                 Area.Text = Convert.ToString(resultado);
             }
            else if (bandera == 6)
             {
                 double a = double.Parse(txtL1.Text);
                 double b = double.Parse(txtA.Text);
-                double resultado = objeto.Romboide(a, b);
+                double resultado = Mate.Romboide(a, b);
                 Area.Text = Convert.ToString(resultado);
             }
            else if (bandera == 7)
             {
                 double a = double.Parse(txtL1.Text);
                 double b = double.Parse(txtH.Text);
-                double resultado = objeto.Pentagono(a, b);
+                double resultado = Mate.Pentagono(a, b);
                 Area.Text = Convert.ToString(resultado);
             }
            else if (bandera == 8)
             {
                 double a = double.Parse(txtL1.Text);
                 double b = double.Parse(txtH.Text);
-                double resultado = objeto.Hexagono(a, b);
+                double resultado = Mate.Hexagono(a, b);
                 Area.Text = Convert.ToString(resultado);
             }
             inicializacion();
