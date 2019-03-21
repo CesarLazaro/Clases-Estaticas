@@ -1,0 +1,10 @@
+C:\Users\lazaroca\source\repos\AREAS\AREAS\bin\Debug\AREAS.exe.config
+C:\Users\lazaroca\source\repos\AREAS\AREAS\bin\Debug\AREAS.exe
+C:\Users\lazaroca\source\repos\AREAS\AREAS\bin\Debug\AREAS.pdb
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.csprojAssemblyReference.cache
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.Form1.resources
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.Properties.Resources.resources
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.csproj.GenerateResource.cache
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.csproj.CoreCompileInputs.cache
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.exe
+C:\Users\lazaroca\source\repos\AREAS\AREAS\obj\Debug\AREAS.pdb
